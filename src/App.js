@@ -2,9 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Del consult</h1>
-    </div>
+    <>
+      <h1 className="text-4xl text-center"> Del consult</h1>
+    </>
   );
 }
 
