@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
@@ -11,6 +11,7 @@ const Navbar = () => {
             </div>
         </div>
 
+        <MenuIcon className='w-5'/>
     </div>
   )
 }
