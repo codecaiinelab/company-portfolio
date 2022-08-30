@@ -1,11 +1,11 @@
-import './App.css';
+import Navbar from "./components/Navbar"
 
-function App() {
+export const App = () => {
   return (
     <>
-      <h1 className="text-4xl text-center"> Del consult</h1>
+       <Navbar/>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
