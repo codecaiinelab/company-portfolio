@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClose =()=> setNav(!nav)
 
   return (
-       <div className='w-screen h-[70px] z-10 bg-zinc-200 fixed'>
+       <div className='w-screen h-[70px] z-10 bg-gray-200 border-b border-white-500 fixed'>
           <div className='px-2 flex justify-between items-center w-full h-full'>
              <div className='flex items-center'>
                 <h1 className='font-bold text-[20px]'>Del Consult</h1>
@@ -31,12 +31,12 @@ const Navbar = () => {
          </div>
 
 
-         <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-          <li className='border-b-2 border-zinc-300 w-full'>Home</li>
-          <li className='border-b-2 border-zinc-300 w-full'>About</li>
-          <li className='border-b-2 border-zinc-300 w-full'>Services</li>
-          <li className='border-b-2 border-zinc-300 w-full'>Projects</li>
-          <li className='border-b-2 border-zinc-300 w-full'>Contact</li>
+         <ul className={!nav ? 'hidden' : 'absolute bg-gray-200 w-full px-8'}>
+          <li className='border-b-2 border-gray-300 w-full'>Home</li>
+          <li className='border-b-2 border-gray-300 w-full'>About</li>
+          <li className='border-b-2 border-gray-300 w-full'>Services</li>
+          <li className='border-b-2 border-gray-300 w-full'>Projects</li>
+          <li className='border-b-2 border-gray-300 w-full'>Contact</li>
 
           <div className='flex flex-col my-4'>
               <button className='px-8 py-3'>Quotation</button>
